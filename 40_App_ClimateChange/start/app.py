@@ -79,6 +79,7 @@ app_ui = ui.page_fluid(
 
 
 def server(input, output, session):
+    #test comments
     map = L.Map(center=(0,0), zoom =1)
     #add distance scale
     map.add_control(L.leaflet.ScaleControl(position = "bottomleft"))
